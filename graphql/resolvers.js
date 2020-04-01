@@ -16,9 +16,8 @@ const resolvers = {
         amount,
         createdAt: Date.now()
       }
-
       orders.push(newOrder);
-
+      
       return newOrder;
     }
   },
