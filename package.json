@@ -1,0 +1,26 @@
+{
+  "name": "custom-graphql-scalar",
+  "version": "1.0.0",
+  "description": "How to create your own custom date scalar in Apollo GraphQL",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kluu1/custom-graphql-scalar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kluu1/custom-graphql-scalar/issues"
+  },
+  "homepage": "https://github.com/kluu1/custom-graphql-scalar#readme",
+  "dependencies": {
+    "apollo-server": "^2.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
