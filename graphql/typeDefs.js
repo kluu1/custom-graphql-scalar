@@ -1,16 +1,20 @@
 const { gql } = require('apollo-server');
 
 const typeDefs = gql`
-  type Orders {
-    _id: String!
+  scalar Date
+
+  type Order {
     userId: Int!
     amount: Int!
-    tax: Int!
-    createdAt: String
+    createdAt: Date!
+  }
+
+  type Mutation {
+    addOrder(userId: Int!, amount: Int!): Order
   }
 
   type Query {
-    orders: [Orders]
+    orders: [Order]
   }
 `;
 
